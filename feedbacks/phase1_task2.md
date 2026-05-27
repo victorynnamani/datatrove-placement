@@ -62,8 +62,17 @@ You used `while balance >= 0:` which means the deduction happens after the balan
 
     Your code perfectly solves the task! However, notice that it assumes the username will always split into exactly two parts. In the real world, messy data like `mary-jane.o.connor` would cause this to drop part of the name. A great habit is to add a quick comment (e.g., `# Assumes only one '.' in the name`) so if the code ever breaks on weird data, people know exactly why.
 
+- **Q7.1 — Code example left in markdown, not run**
+
+    The append() vs extend() explanation is great, but the code example was left inside a markdown cell as a code block rather than written in a proper code cell and executed. The brief asked to “show a code example of each” — which implies running it.
+
+
 - **Q7.3 (Replacing an item): Flag "destructive" actions.** 
 
     You correctly replaced index 1 with `"Laptop Stand"` exactly as the task asked. But in a real data pipeline, silently overwriting data can be risky because you lose the original record forever. A pro tip is to leave a comment like `# Warning: this overwrites the existing entry` whenever you permanently replace or delete data. It tells future readers that the data loss was intentional, not a bug.
+
+- **Q7.4 is well done overall.**
+One small note: printing Electronics transactions as raw dicts (print(t)) works but looks messy. In a real report you’d format it — e.g. 
+``print(f"{t['product']}: £{t['total']}")``. Something to think about for future tasks.
 
 ---
