@@ -27,7 +27,7 @@ A virtual environment is an isolated Python environment that allows a project to
 
 We use virtual environments instead of installing libraries globally to ensure consistency, avoid version conflicts, and make it easier for others to reproduce the project.
 
-COMMANDS I USED TO CREATE AND ACTIVATE 
+## COMMANDS I USED TO CREATE AND ACTIVATE 
 (Windows - Command Prompt):
 python -m venv .venv
 .venv\Scripts\activate.bat
