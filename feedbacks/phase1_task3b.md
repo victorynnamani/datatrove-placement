@@ -42,16 +42,9 @@ git push
 
 `git rm --cached` removes it from Git's tracking but **keeps the file on your disk**. After this, the `.gitignore` entry will finally do its job. Do this yourself — it's a habit you'll use constantly.
 
-### 2. Answers were written into the task sheet, not a separate answers file
-The brief asked you to write your answers in a **new** file: `tasks/phase1_task3b_answers.md`. Instead, you wrote them directly inside the task instructions file (`phase1_task3b_environment_and_tooling.md`).
 
-It still reads fine, but keep *task prompts* and *your work* in separate files. Mixing them means the original brief is now altered, and if I reissue the task or you revisit it, your answers and the question are tangled together. Small thing, but following the deliverable spec exactly is part of the job.
-
----
-
-## Suggestions for next time (not blockers)
-
-- **Pin your versions in `requirements.txt`.** Right now it lists:
+ ### 2. Pin your versions in `requirements.txt`.
+ Right now it lists:
 
   ```text
   numpy
@@ -71,10 +64,23 @@ It still reads fine, but keep *task prompts* and *your work* in separate files. 
 
   (`pip freeze > requirements.txt` generates these for you from your venv.)
 
-- **Add the notebook kernel dependencies.** To actually *run* the Task 3C notebook from a clean clone, a teammate also needs `jupyter` and `ipykernel`. They're missing from `requirements.txt`, so as written, the notebook won't run for someone setting up fresh.
+### 3. Add the notebook kernel dependencies.
+To actually *run* the Task 3C notebook from a clean clone, a teammate also needs `jupyter` and `ipykernel`. They're missing from `requirements.txt`, so as written, the notebook won't run for someone setting up fresh.
 
 - **Note the dataset in the README.** Since `dataset/datatrove_sales_2024.csv` is correctly git-ignored, anyone cloning the repo won't have it. A one-line note in the README ("place the dataset in `dataset/` before running") saves confusion later.
 
 ---
+
+
+---
+
+## Suggestions for next time (not blockers)
+
+### Answers were written into the task sheet, not a separate answers file
+The brief asked you to write your answers in a **new** file: `tasks/phase1_task3b_answers.md`. Instead, you wrote them directly inside the task instructions file (`phase1_task3b_environment_and_tooling.md`).
+
+It still reads fine, but keep *task prompts* and *your work* in separate files. Mixing them means the original brief is now altered, and if I reissue the task or you revisit it, your answers and the question are tangled together. Small thing, but following the deliverable spec exactly is part of the job.
+
+
 
 — Promise
