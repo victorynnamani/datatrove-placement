@@ -67,7 +67,7 @@ git push
 ### 3. Add the notebook kernel dependencies.
 To actually *run* the Task 3C notebook from a clean clone, a teammate also needs `jupyter` and `ipykernel`. They're missing from `requirements.txt`, so as written, the notebook won't run for someone setting up fresh.
 
-- **Note the dataset in the README.** Since `dataset/datatrove_sales_2024.csv` is correctly git-ignored, anyone cloning the repo won't have it. A one-line note in the README ("place the dataset in `dataset/` before running") saves confusion later.
+### 4. Note the dataset in the README. Since `dataset/datatrove_sales_2024.csv` is correctly git-ignored, anyone cloning the repo won't have it. A one-line note in the README ("place the dataset in `dataset/` before running") saves confusion later.
 
 ---
 
