@@ -1,0 +1,501 @@
+order_id,order_date,city,category,product_name,quantity,unit_price,discount_pct,total_amount,customer_id,return_flag,sales_channel,payment_method
+DT-20240069,2024-01-01,Ibadan,Home & Garden,Table Lamp,1,24.03,0,24.03,CUST-0139,N,Online,Cash
+DT-20240027,2024-01-02,Abuja,Home & Garden,Table Lamp,4,26.68,0,106.72,CUST-0034,N,Online,Card
+DT-20240073,2024-01-02,Abuja,Beauty & Health,Face Moisturiser,4,18.72,0,74.88,CUST-0077,N,In-Store,Bank Transfer
+DT-20240215,2024-01-03,Enugu,Electronics,USB-C Hub,4,25.03,15,85.1,CUST-0053,N,In-Store,Bank Transfer
+DT-20240362,2024-01-04,Port Harcourt,Electronics,Wireless Headphones,5,49.33,0,246.65,CUST-0031,N,Online,Cash
+DT-20240191,2024-01-05,Lagos,Books & Stationery,Notebook A5,2,7.34,15,12.48,CUST-0117,N,In-Store,Cash
+DT-20240232,2024-01-05,Lagos,Electronics,Wireless Headphones,2,47.5,0,95.0,CUST-0088,N,Marketplace,Bank Transfer
+DT-20240249,2024-01-05,Jos,Sports & Outdoors,Yoga Mat,2,26.61,0,53.22,CUST-0001,N,Online,Cash
+DT-20240280,2024-01-07,Kaduna,Toys & Games,Board Game,3,33.64,5,95.87,CUST-0160,N,Phone,Bank Transfer
+DT-20240326,2024-01-07,Port Harcourt,Books & Stationery,Fountain Pen,5,17.63,5,83.74,CUST-0007,N,Online,Bank Transfer
+DT-20240300,2024-01-08,Owerri,Clothing,Running Shoes,2,64.52,0,129.04,CUST-0136,N,In-Store,Card
+DT-20240192,2024-01-09,Port Harcourt,Food & Drink,Herbal Tea Pack,3,10.68,0,32.04,CUST-0071,N,Online,Bank Transfer
+DT-20240150,2024-01-12,Lagos,Sports & Outdoors,Yoga Mat,2,29.37,5,55.8,CUST-0101,N,Marketplace,Card
+DT-20240355,2024-01-12,Abuja,Clothing,Cotton T-Shirt,2,15.18,0,30.36,CUST-0033,N,Online,Cash
+DT-20240102,2024-01-14,Ibadan,Food & Drink,Coffee Beans 1kg,6,21.19,10,114.43,CUST-0169,N,Online,Bank Transfer
+DT-20240124,2024-01-14,Kano,Clothing,Denim Jeans,1,42.31,15,35.96,CUST-0102,N,Online,Wallet
+DT-20240207,2024-01-14,Jos,Clothing,Cotton T-Shirt,1,16.06,20,12.85,CUST-0119,Y,Online,Cash
+DT-20240481,2024-01-14,Abuja,Electronics,USB-C Hub,3,25.62,10,69.17,CUST-0022,N,Online,Cash
+DT-20240243,2024-01-16,Abuja,Electronics,Bluetooth Speaker,4,33.82,0,135.28,CUST-0110,N,Online,Cash
+DT-20240340,2024-01-16,Kano,Clothing,Ankara Dress,1,46.29,15,39.35,CUST-0137,N,In-Store,Cash
+DT-20240455,2024-01-16,Abuja,Electronics,Bluetooth Speaker,5,36.88,0,184.4,CUST-0097,N,Phone,Card
+DT-20240406,2024-01-17,Lagos,Clothing,Ankara Dress,2,43.39,0,86.78,CUST-0125,N,Online,Card
+DT-20240445,2024-01-17,Ibadan,Beauty & Health,Face Moisturiser,1,18.16,10,16.34,CUST-0155,N,Marketplace,
+DT-20240453,2024-01-19,Ibadan,Electronics,Smart Watch,4,126.77,15,431.02,CUST-0124,N,In-Store,Bank Transfer
+DT-20240486,2024-01-22,Lagos,Clothing,Ankara Dress,2,48.16,10,86.69,CUST-0137,N,Marketplace,Bank Transfer
+DT-20240034,2024-01-23,Enugu,Clothing,Ankara Dress,6,45.29,0,271.74,CUST-0001,N,Phone,Card
+DT-20240245,2024-01-24,Kano,Food & Drink,Herbal Tea Pack,4,9.64,0,38.56,CUST-0099,Y,Online,Card
+DT-20240309,2024-01-24,Lagos,Electronics,Bluetooth Speaker,3,34.88,0,104.64,CUST-0036,N,Online,Cash
+DT-20240304,2024-01-25,Enugu,Food & Drink,Herbal Tea Pack,3,10.3,0,30.9,CUST-0107,N,Online,Cash
+DT-20240462,2024-01-26,Lagos,Sports & Outdoors,Hiking Backpack,1,66.59,0,66.59,CUST-0121,Y,Online,Bank Transfer
+DT-20240079,2024-01-29,Abuja,Sports & Outdoors,Yoga Mat,3,28.2,15,71.91,CUST-0096,N,Online,
+DT-20240180,2024-01-29,Lagos,Food & Drink,Protein Powder,1,29.44,0,29.44,CUST-0075,N,Marketplace,Cash
+DT-20240387,2024-02-02,Owerri,Electronics,Bluetooth Speaker,3,37.52,0,112.56,CUST-0122,N,Online,Card
+DT-20240103,2024-02-05,Lagos,Electronics,Bluetooth Speaker,2,37.43,0,74.86,CUST-0163,Y,Online,Bank Transfer
+DT-20240142,2024-02-07,Lagos,Electronics,USB-C Hub,3,26.99,5,76.92,CUST-0082,N,Online,Cash
+DT-20240147,2024-02-07,Enugu,Home & Garden,Cookware Set,2,96.68,10,174.02,CUST-0041,N,In-Store,Card
+DT-20240152,2024-02-07,Kano,Sports & Outdoors,Hiking Backpack,2,64.83,5,123.18,CUST-0116,N,Online,Bank Transfer
+DT-20240493,2024-02-07,Lagos,Home & Garden,Table Lamp,3,24.45,15,62.35,CUST-0065,N,Online,Card
+DT-20240415,2024-02-09,Enugu,Toys & Games,Board Game,4,34.3,0,137.2,CUST-0124,N,Phone,Wallet
+DT-20240144,2024-02-10,Abuja,Clothing,Denim Jeans,3,39.67,0,119.01,CUST-0163,Y,Online,Wallet
+DT-20240195,2024-02-12,Port Harcourt,Sports & Outdoors,Yoga Mat,2,28.07,5,53.33,CUST-0112,N,Online,Cash
+DT-20240128,2024-02-13,Port Harcourt,Sports & Outdoors,Hiking Backpack,3,65.37,0,196.11,CUST-0093,N,In-Store,Bank Transfer
+DT-20240212,2024-02-13,Lagos,Food & Drink,Herbal Tea Pack,2,10.14,0,20.28,CUST-0037,N,Online,Bank Transfer
+DT-20240307,2024-02-15,Owerri,Electronics,USB-C Hub,3,26.7,5,76.09,CUST-0147,N,Online,Card
+DT-20240066,2024-02-16,Abuja,Home & Garden,Table Lamp,1,24.0,0,24.0,CUST-0173,N,In-Store,Card
+DT-20240113,2024-02-16,Ibadan,Electronics,USB-C Hub,1,25.21,15,21.43,CUST-0130,N,In-Store,
+DT-20240349,2024-02-16,Kano,Clothing,Denim Jeans,3,42.62,15,108.68,CUST-0129,N,Online,Bank Transfer
+DT-20240457,2024-02-17,Kano,Clothing,Ankara Dress,2,44.0,0,88.0,CUST-0007,N,Marketplace,Cash
+DT-20240464,2024-02-17,Kaduna,Sports & Outdoors,Water Bottle,1,13.71,15,11.65,CUST-0179,N,In-Store,Bank Transfer
+DT-20240414,2024-02-18,Lagos,Sports & Outdoors,Water Bottle,5,13.73,5,65.22,CUST-0092,N,Online,Bank Transfer
+DT-20240336,2024-02-19,Lagos,Clothing,Running Shoes,1,60.79,10,54.71,CUST-0138,N,In-Store,Card
+DT-20240458,2024-02-20,Kaduna,Electronics,Bluetooth Speaker,4,37.44,5,142.27,CUST-0133,N,Online,Card
+DT-20240344,2024-02-21,Abuja,Electronics,Smart Watch,2,135.75,0,271.5,CUST-0018,Y,Online,Bank Transfer
+DT-20240271,2024-02-23,Lagos,Beauty & Health,Face Moisturiser,1,18.44,15,15.67,CUST-0044,Y,Online,Card
+DT-20240322,2024-02-23,Kano,Food & Drink,Herbal Tea Pack,5,10.5,10,47.25,CUST-0154,N,Online,Cash
+DT-20240375,2024-02-24,Lagos,Sports & Outdoors,Hiking Backpack,1,63.49,0,63.49,CUST-0021,N,In-Store,Card
+DT-20240031,2024-02-25,Kano,Sports & Outdoors,Hiking Backpack,5,68.52,10,308.34,CUST-0010,N,Online,Cash
+DT-20240101,2024-02-25,Abuja,Books & Stationery,Fountain Pen,3,16.92,0,50.76,CUST-0143,N,Phone,Card
+DT-20240490,2024-02-26,Enugu,Electronics,Power Bank,3,19.33,15,49.29,CUST-0065,N,In-Store,Wallet
+DT-20240012,2024-02-27,Owerri,Sports & Outdoors,Water Bottle,5,13.95,15,59.29,CUST-0079,N,Online,Bank Transfer
+DT-20240399,2024-02-27,Abuja,Electronics,USB-C Hub,1,25.81,15,21.94,CUST-0112,N,Online,Card
+DT-20240482,2024-02-27,Ibadan,Sports & Outdoors,Hiking Backpack,1,62.86,15,53.43,CUST-0152,N,In-Store,
+DT-20240071,2024-02-28,Kano,Food & Drink,Protein Powder,2,31.26,0,62.52,CUST-0031,N,Online,Card
+DT-20240310,2024-02-28,Kano,Clothing,Running Shoes,1,64.44,10,58.0,CUST-0117,N,Online,Card
+DT-20240372,2024-02-29,Abuja,Sports & Outdoors,Hiking Backpack,2,69.86,5,132.73,CUST-0098,N,Marketplace,Card
+DT-20240278,2024-03-02,Owerri,Toys & Games,Board Game,5,35.52,10,159.84,CUST-0115,N,Marketplace,Bank Transfer
+DT-20240013,2024-03-06,Ibadan,Food & Drink,Protein Powder,2,28.82,0,57.64,CUST-0141,N,In-Store,Cash
+DT-20240143,2024-03-07,Kano,Sports & Outdoors,Hiking Backpack,4,62.82,5,238.72,CUST-0015,N,In-Store,Cash
+DT-20240312,2024-03-07,Port Harcourt,Clothing,Running Shoes,3,63.07,15,160.83,CUST-0125,N,Online,Cash
+DT-20240171,2024-03-09,Kano,Sports & Outdoors,Water Bottle,5,12.54,0,62.7,CUST-0117,N,In-Store,Card
+DT-20240251,2024-03-09,Ibadan,Beauty & Health,Vitamin C Serum,2,23.94,20,38.3,CUST-0101,N,In-Store,Card
+DT-20240225,2024-03-10,Jos,Sports & Outdoors,Hiking Backpack,6,66.58,5,379.51,CUST-0106,Y,Marketplace,Cash
+DT-20240391,2024-03-10,Abuja,Electronics,Wireless Headphones,2,50.36,0,100.72,CUST-0121,N,In-Store,Card
+DT-20240119,2024-03-11,Lagos,Clothing,Ankara Dress,6,44.55,0,267.3,CUST-0076,N,Online,Card
+DT-20240429,2024-03-11,Lagos,Books & Stationery,Notebook A5,6,7.5,0,45.0,CUST-0098,N,In-Store,Card
+DT-20240250,2024-03-13,Enugu,Sports & Outdoors,Hiking Backpack,2,62.62,0,125.24,CUST-0024,N,Online,Card
+DT-20240424,2024-03-13,Enugu,Clothing,Denim Jeans,2,39.05,0,78.1,CUST-0172,N,In-Store,Cash
+DT-20240500,2024-03-13,Port Harcourt,Food & Drink,Herbal Tea Pack,3,9.68,15,24.68,CUST-0005,N,Marketplace,
+DT-20240183,2024-03-14,Kaduna,Electronics,USB-C Hub,2,24.34,0,48.68,CUST-0015,N,Marketplace,Cash
+DT-20240125,2024-03-15,Lagos,Books & Stationery,Fountain Pen,2,16.64,0,33.28,CUST-0074,Y,In-Store,Card
+DT-20240350,2024-03-15,Enugu,Books & Stationery,Notebook A5,1,7.33,0,7.33,CUST-0124,Y,Online,Bank Transfer
+DT-20240431,2024-03-15,Ibadan,Sports & Outdoors,Yoga Mat,2,29.73,10,53.51,CUST-0145,Y,Online,Card
+DT-20240028,2024-03-17,Port Harcourt,Sports & Outdoors,Water Bottle,3,13.53,0,40.59,CUST-0095,N,Online,Bank Transfer
+DT-20240193,2024-03-17,Abuja,Home & Garden,Cookware Set,4,93.38,15,317.49,CUST-0159,N,Phone,Card
+DT-20240114,2024-03-18,Jos,Books & Stationery,Notebook A5,4,7.05,10,25.38,CUST-0116,N,Marketplace,Bank Transfer
+DT-20240474,2024-03-19,Abuja,Electronics,Smart Watch,1,131.52,0,131.52,CUST-0172,N,Online,Cash
+DT-20240170,2024-03-22,Kano,Sports & Outdoors,Yoga Mat,2,27.54,0,55.08,CUST-0129,Y,Marketplace,Bank Transfer
+DT-20240285,2024-03-22,Lagos,Home & Garden,Table Lamp,4,26.15,15,88.91,CUST-0130,N,Phone,Bank Transfer
+DT-20240311,2024-03-22,Lagos,Beauty & Health,Vitamin C Serum,4,23.78,0,95.12,CUST-0152,N,In-Store,Card
+DT-20240385,2024-03-23,Abuja,Toys & Games,Building Blocks,3,28.89,15,73.67,CUST-0081,N,Online,
+DT-20240438,2024-03-26,Kano,Clothing,Cotton T-Shirt,2,14.61,15,24.84,CUST-0157,Y,In-Store,Card
+DT-20240303,2024-03-27,Lagos,Beauty & Health,Face Moisturiser,3,18.6,0,55.8,CUST-0167,N,Online,Bank Transfer
+DT-20240368,2024-03-27,Ibadan,Electronics,Power Bank,1,19.73,5,18.74,CUST-0093,N,Online,Card
+DT-20240466,2024-03-28,Abuja,Clothing,Ankara Dress,1,45.39,5,43.12,CUST-0090,N,Online,Bank Transfer
+DT-20240262,2024-03-29,Lagos,Clothing,Cotton T-Shirt,6,15.73,5,89.66,CUST-0152,N,In-Store,Card
+DT-20240165,2024-03-30,Kano,Toys & Games,Board Game,1,36.21,10,32.59,CUST-0046,Y,Online,Card
+DT-20240030,2024-03-31,Benin City,Home & Garden,Table Lamp,4,26.9,15,91.46,CUST-0007,N,Marketplace,Card
+DT-20240287,2024-03-31,Jos,Beauty & Health,Vitamin C Serum,1,23.74,0,23.74,CUST-0122,N,Online,Bank Transfer
+DT-20240298,2024-04-02,Kaduna,Electronics,Smart Watch,6,129.28,15,659.33,CUST-0125,N,Marketplace,Card
+DT-20240133,2024-04-05,Port Harcourt,Electronics,Bluetooth Speaker,2,35.23,0,70.46,CUST-0128,N,Phone,Card
+DT-20240219,2024-04-05,Abuja,Food & Drink,Herbal Tea Pack,5,10.68,0,53.4,CUST-0116,N,Marketplace,Card
+DT-20240421,2024-04-07,Abuja,Sports & Outdoors,Hiking Backpack,3,67.53,0,202.59,CUST-0153,N,Phone,Card
+DT-20240004,2024-04-08,Enugu,Books & Stationery,Fountain Pen,1,16.31,5,15.49,CUST-0012,N,Phone,Card
+DT-20240167,2024-04-08,Kaduna,Home & Garden,Cookware Set,2,91.85,20,146.96,CUST-0085,N,In-Store,Bank Transfer
+DT-20240330,2024-04-09,Abuja,Sports & Outdoors,Water Bottle,3,12.96,10,34.99,CUST-0046,Y,Online,Cash
+DT-20240420,2024-04-10,Port Harcourt,Home & Garden,Cookware Set,1,87.02,5,82.67,CUST-0135,N,Online,Bank Transfer
+DT-20240274,2024-04-12,Lagos,Home & Garden,Throw Blanket,2,29.9,0,59.8,CUST-0053,N,Online,Bank Transfer
+DT-20240460,2024-04-12,Lagos,Home & Garden,Cookware Set,1,94.21,10,84.79,CUST-0071,N,Phone,Card
+DT-20240492,2024-04-12,Ibadan,Clothing,Cotton T-Shirt,4,14.74,0,58.96,CUST-0046,N,Online,
+DT-20240461,2024-04-15,Port Harcourt,Food & Drink,Coffee Beans 1kg,1,19.38,0,19.38,CUST-0141,N,Online,Bank Transfer
+DT-20240062,2024-04-16,Ibadan,Clothing,Running Shoes,3,59.37,5,169.2,CUST-0068,N,Online,Wallet
+DT-20240026,2024-04-17,Enugu,Toys & Games,Board Game,5,34.44,10,154.98,CUST-0053,N,Marketplace,Card
+DT-20240269,2024-04-17,Abuja,Electronics,Wireless Headphones,3,52.83,10,142.64,CUST-0018,N,Phone,Card
+DT-20240378,2024-04-17,Abuja,Electronics,Wireless Headphones,2,52.03,10,93.65,CUST-0026,N,In-Store,
+DT-20240043,2024-04-19,Lagos,Clothing,Ankara Dress,1,47.96,0,47.96,CUST-0105,N,In-Store,Card
+DT-20240234,2024-04-19,Ibadan,Beauty & Health,Face Moisturiser,3,18.21,5,51.9,CUST-0039,Y,In-Store,Card
+DT-20240324,2024-04-21,Lagos,Toys & Games,Building Blocks,2,29.66,0,59.32,CUST-0160,N,In-Store,Bank Transfer
+DT-20240489,2024-04-21,Jos,Sports & Outdoors,Hiking Backpack,1,63.37,0,63.37,CUST-0164,N,Marketplace,Bank Transfer
+DT-20240357,2024-04-22,Benin City,Sports & Outdoors,Hiking Backpack,1,69.74,5,66.25,CUST-0154,N,In-Store,Bank Transfer
+DT-20240095,2024-04-23,Owerri,Home & Garden,Cookware Set,2,86.23,0,172.46,CUST-0012,N,Marketplace,Bank Transfer
+DT-20240435,2024-04-23,Enugu,Electronics,Smart Watch,2,127.31,20,203.7,CUST-0052,N,Online,Wallet
+DT-20240086,2024-04-25,Benin City,Books & Stationery,Fountain Pen,2,17.79,0,35.58,CUST-0173,Y,Marketplace,Card
+DT-20240078,2024-04-26,Enugu,Sports & Outdoors,Hiking Backpack,1,69.11,0,69.11,CUST-0112,Y,Phone,Wallet
+DT-20240338,2024-04-26,Owerri,Home & Garden,Table Lamp,1,23.86,0,23.86,CUST-0105,N,In-Store,Card
+DT-20240083,2024-04-27,Ibadan,Beauty & Health,Face Moisturiser,4,20.29,15,68.99,CUST-0091,N,Online,Cash
+DT-20240388,2024-04-27,Abuja,Clothing,Cotton T-Shirt,3,14.44,0,43.32,CUST-0073,N,Online,Card
+DT-20240409,2024-04-28,Port Harcourt,Electronics,Wireless Headphones,1,52.91,0,52.91,CUST-0049,N,In-Store,Card
+DT-20240422,2024-04-29,Lagos,Electronics,Bluetooth Speaker,6,36.04,0,216.24,CUST-0096,N,In-Store,Card
+DT-20240038,2024-04-30,Ibadan,Books & Stationery,Notebook A5,1,7.24,10,6.52,CUST-0058,N,Online,Card
+DT-20240169,2024-04-30,Kano,Electronics,Wireless Headphones,1,48.69,0,48.69,CUST-0069,Y,Online,Card
+DT-20240019,2024-05-01,Lagos,Home & Garden,Throw Blanket,2,31.03,0,62.06,CUST-0125,N,Marketplace,Cash
+DT-20240223,2024-05-01,Lagos,Books & Stationery,Fountain Pen,5,16.72,0,83.6,CUST-0151,N,Marketplace,Card
+DT-20240179,2024-05-03,Lagos,Electronics,Wireless Headphones,3,47.7,5,135.95,CUST-0026,N,Online,Wallet
+DT-20240237,2024-05-03,Port Harcourt,Sports & Outdoors,Hiking Backpack,4,67.2,10,241.92,CUST-0153,N,Marketplace,Card
+DT-20240186,2024-05-04,Enugu,Clothing,Cotton T-Shirt,1,14.65,10,13.19,CUST-0053,N,Online,Cash
+DT-20240437,2024-05-05,Port Harcourt,Clothing,Cotton T-Shirt,2,15.26,10,27.47,CUST-0102,Y,Online,
+DT-20240427,2024-05-06,Owerri,Food & Drink,Protein Powder,2,29.22,5,55.52,CUST-0079,N,Online,Card
+DT-20240018,2024-05-07,Benin City,Beauty & Health,Face Moisturiser,1,18.65,0,18.65,CUST-0020,N,Marketplace,Card
+DT-20240329,2024-05-08,Lagos,Toys & Games,Building Blocks,4,28.11,10,101.2,CUST-0114,N,Marketplace,Card
+DT-20240129,2024-05-09,Enugu,Home & Garden,Cookware Set,2,91.97,5,174.74,CUST-0092,N,Online,Wallet
+DT-20240364,2024-05-09,Jos,Clothing,Denim Jeans,4,40.14,5,152.53,CUST-0148,N,In-Store,Bank Transfer
+DT-20240443,2024-05-09,Lagos,Home & Garden,Cookware Set,5,87.6,20,350.4,CUST-0128,N,In-Store,
+DT-20240331,2024-05-10,Lagos,Books & Stationery,Notebook A5,2,6.98,5,13.26,CUST-0120,N,Online,Bank Transfer
+DT-20240049,2024-05-11,Kaduna,Electronics,Smart Watch,2,127.52,0,255.04,CUST-0043,N,Marketplace,Bank Transfer
+DT-20240295,2024-05-12,Enugu,Home & Garden,Throw Blanket,5,31.77,0,158.85,CUST-0144,N,Online,Card
+DT-20240465,2024-05-12,Owerri,Sports & Outdoors,Water Bottle,2,13.63,20,21.81,CUST-0101,N,Marketplace,Wallet
+DT-20240033,2024-05-13,Lagos,Food & Drink,Coffee Beans 1kg,4,20.76,0,83.04,CUST-0068,N,In-Store,
+DT-20240348,2024-05-13,Port Harcourt,Food & Drink,Herbal Tea Pack,4,10.24,0,40.96,CUST-0139,N,Phone,
+DT-20240216,2024-05-14,Ibadan,Sports & Outdoors,Water Bottle,5,12.51,0,62.55,CUST-0126,N,In-Store,Bank Transfer
+DT-20240373,2024-05-14,Abuja,Food & Drink,Protein Powder,2,31.61,0,63.22,CUST-0024,N,In-Store,Cash
+DT-20240053,2024-05-17,Abuja,Food & Drink,Herbal Tea Pack,2,10.54,5,20.03,CUST-0063,N,Online,Cash
+DT-20240162,2024-05-18,Owerri,Sports & Outdoors,Hiking Backpack,3,69.55,10,187.78,CUST-0179,N,Online,Cash
+DT-20240380,2024-05-18,Kaduna,Clothing,Running Shoes,1,58.39,5,55.47,CUST-0143,N,Online,Card
+DT-20240045,2024-05-19,Kano,Clothing,Running Shoes,4,61.19,10,220.28,CUST-0008,N,In-Store,Bank Transfer
+DT-20240085,2024-05-19,Benin City,Sports & Outdoors,Yoga Mat,4,27.32,15,92.89,CUST-0066,Y,Marketplace,Bank Transfer
+DT-20240258,2024-05-20,Abuja,Clothing,Running Shoes,2,60.86,0,121.72,CUST-0039,N,In-Store,Wallet
+DT-20240282,2024-05-21,Kano,Beauty & Health,Vitamin C Serum,2,22.99,5,43.68,CUST-0159,N,In-Store,
+DT-20240428,2024-05-21,Kaduna,Electronics,Bluetooth Speaker,2,36.35,0,72.7,CUST-0161,N,Online,Wallet
+DT-20240067,2024-05-22,Lagos,Books & Stationery,Fountain Pen,4,17.41,0,69.64,CUST-0150,N,Phone,Bank Transfer
+DT-20240122,2024-05-24,Kaduna,Books & Stationery,Fountain Pen,1,18.14,10,16.33,CUST-0129,N,Marketplace,Bank Transfer
+DT-20240151,2024-05-26,Port Harcourt,Electronics,Bluetooth Speaker,1,33.46,5,31.79,CUST-0028,N,Marketplace,Bank Transfer
+DT-20240239,2024-05-26,Ibadan,Electronics,Wireless Headphones,1,47.58,15,40.44,CUST-0129,N,Online,Card
+DT-20240384,2024-05-26,Kano,Clothing,Ankara Dress,2,46.68,10,84.02,CUST-0038,N,In-Store,Card
+DT-20240063,2024-05-27,Enugu,Electronics,Wireless Headphones,2,48.51,10,87.32,CUST-0180,N,Online,Card
+DT-20240070,2024-05-27,Kano,Home & Garden,Cookware Set,3,94.34,10,254.72,CUST-0179,N,Online,Bank Transfer
+DT-20240160,2024-05-27,Enugu,Food & Drink,Protein Powder,1,32.22,0,32.22,CUST-0177,N,Online,Wallet
+DT-20240450,2024-05-28,Jos,Food & Drink,Herbal Tea Pack,2,10.44,10,18.79,CUST-0001,N,In-Store,Card
+DT-20240131,2024-05-30,Lagos,Books & Stationery,Fountain Pen,4,17.54,0,70.16,CUST-0052,Y,Online,Bank Transfer
+DT-20240323,2024-05-30,Kano,Toys & Games,Building Blocks,5,30.15,10,135.68,CUST-0035,N,In-Store,Wallet
+DT-20240472,2024-05-30,Lagos,Clothing,Ankara Dress,3,48.53,5,138.31,CUST-0141,Y,Online,Cash
+DT-20240058,2024-05-31,Abuja,Home & Garden,Cookware Set,4,92.39,5,351.08,CUST-0046,N,In-Store,Cash
+DT-20240308,2024-05-31,Abuja,Electronics,Power Bank,3,19.19,15,48.93,CUST-0013,N,Online,Bank Transfer
+DT-20240011,2024-06-01,Benin City,Sports & Outdoors,Water Bottle,2,12.79,0,25.58,CUST-0130,N,Online,Cash
+DT-20240166,2024-06-01,Port Harcourt,Beauty & Health,Vitamin C Serum,4,22.4,15,76.16,CUST-0028,Y,Online,Card
+DT-20240273,2024-06-01,Abuja,Electronics,Smart Watch,3,130.41,15,332.55,CUST-0013,N,In-Store,Bank Transfer
+DT-20240194,2024-06-02,Enugu,Clothing,Running Shoes,6,57.61,5,328.38,CUST-0021,N,Marketplace,Bank Transfer
+DT-20240213,2024-06-02,Lagos,Sports & Outdoors,Water Bottle,2,13.16,0,26.32,CUST-0030,N,Online,Card
+DT-20240106,2024-06-03,Owerri,Food & Drink,Herbal Tea Pack,1,10.36,0,10.36,CUST-0036,N,Online,Card
+DT-20240413,2024-06-03,Lagos,Books & Stationery,Notebook A5,6,7.3,5,41.61,CUST-0057,N,Online,Wallet
+DT-20240208,2024-06-04,Abuja,Sports & Outdoors,Water Bottle,4,12.46,10,44.86,CUST-0169,N,Online,Card
+DT-20240301,2024-06-05,Lagos,Food & Drink,Protein Powder,5,29.37,0,146.85,CUST-0012,N,Online,Bank Transfer
+DT-20240201,2024-06-06,Kano,Electronics,Smart Watch,2,135.99,0,271.98,CUST-0070,N,Online,
+DT-20240007,2024-06-10,Lagos,Electronics,Wireless Headphones,2,52.72,0,105.44,CUST-0128,N,Marketplace,Bank Transfer
+DT-20240471,2024-06-11,Abuja,Food & Drink,Coffee Beans 1kg,2,20.37,5,38.7,CUST-0174,N,Marketplace,Bank Transfer
+DT-20240074,2024-06-13,Benin City,Food & Drink,Protein Powder,2,30.23,0,60.46,CUST-0179,N,Online,Card
+DT-20240134,2024-06-13,Lagos,Clothing,Cotton T-Shirt,1,15.66,5,14.88,CUST-0084,N,Online,Bank Transfer
+DT-20240284,2024-06-13,Abuja,Beauty & Health,Face Moisturiser,1,20.44,0,20.44,CUST-0107,N,Online,Cash
+DT-20240315,2024-06-13,Abuja,Electronics,Smart Watch,2,132.03,5,250.86,CUST-0072,N,Online,Cash
+DT-20240094,2024-06-14,Lagos,Sports & Outdoors,Yoga Mat,1,29.0,0,29.0,CUST-0068,N,In-Store,Card
+DT-20240325,2024-06-14,Enugu,Toys & Games,Board Game,3,37.7,20,90.48,CUST-0091,N,In-Store,Bank Transfer
+DT-20240398,2024-06-14,Lagos,Electronics,Wireless Headphones,6,50.88,5,290.02,CUST-0011,N,In-Store,Card
+DT-20240491,2024-06-14,Abuja,Electronics,USB-C Hub,1,26.74,0,26.74,CUST-0019,N,Online,Cash
+DT-20240054,2024-06-15,Lagos,Toys & Games,Board Game,3,36.65,10,98.95,CUST-0055,N,Online,Bank Transfer
+DT-20240173,2024-06-16,Benin City,Clothing,Cotton T-Shirt,2,14.36,5,27.28,CUST-0114,N,Online,Card
+DT-20240199,2024-06-16,Lagos,Electronics,Smart Watch,2,137.66,10,247.79,CUST-0070,N,In-Store,Card
+DT-20240252,2024-06-16,Abuja,Clothing,Denim Jeans,1,39.22,0,39.22,CUST-0070,N,Marketplace,Cash
+DT-20240254,2024-06-16,Lagos,Beauty & Health,Face Moisturiser,3,18.43,10,49.76,CUST-0064,Y,Online,Card
+DT-20240077,2024-06-17,Benin City,Electronics,USB-C Hub,1,26.28,5,24.97,CUST-0137,N,Online,Card
+DT-20240257,2024-06-18,Lagos,Beauty & Health,Face Moisturiser,1,20.5,5,19.47,CUST-0119,N,Marketplace,Card
+DT-20240296,2024-06-18,Abuja,Food & Drink,Coffee Beans 1kg,1,20.69,0,20.69,CUST-0150,N,Marketplace,Bank Transfer
+DT-20240396,2024-06-18,Lagos,Electronics,USB-C Hub,4,24.75,20,79.2,CUST-0038,N,Phone,Cash
+DT-20240092,2024-06-19,Abuja,Beauty & Health,Vitamin C Serum,1,22.11,5,21.0,CUST-0033,N,Online,Card
+DT-20240283,2024-06-21,Kaduna,Electronics,Bluetooth Speaker,1,36.38,5,34.56,CUST-0078,N,Phone,Card
+DT-20240130,2024-06-22,Kaduna,Sports & Outdoors,Water Bottle,3,12.52,10,33.8,CUST-0045,N,In-Store,Card
+DT-20240010,2024-06-23,Lagos,Beauty & Health,Face Moisturiser,1,19.72,15,16.76,CUST-0112,N,Online,Cash
+DT-20240264,2024-06-23,Enugu,Electronics,Smart Watch,2,123.83,0,247.66,CUST-0083,N,Online,Cash
+DT-20240423,2024-06-24,Enugu,Electronics,Wireless Headphones,3,49.07,0,147.21,CUST-0029,N,In-Store,Card
+DT-20240468,2024-06-24,Port Harcourt,Clothing,Ankara Dress,3,43.96,0,131.88,CUST-0061,N,In-Store,Bank Transfer
+DT-20240479,2024-06-24,Port Harcourt,Food & Drink,Herbal Tea Pack,4,10.31,0,41.24,CUST-0003,N,In-Store,
+DT-20240483,2024-06-24,Jos,Clothing,Denim Jeans,3,39.35,5,112.15,CUST-0038,N,Phone,Cash
+DT-20240003,2024-06-25,Ibadan,Clothing,Ankara Dress,6,43.65,0,261.9,CUST-0012,N,In-Store,Card
+DT-20240161,2024-06-25,Jos,Clothing,Ankara Dress,3,44.42,5,126.6,CUST-0038,N,Online,Card
+DT-20240175,2024-06-25,Enugu,Electronics,Bluetooth Speaker,4,36.95,5,140.41,CUST-0139,Y,Marketplace,
+DT-20240342,2024-06-25,Lagos,Electronics,Wireless Headphones,2,51.21,5,97.3,CUST-0166,N,Online,Card
+DT-20240353,2024-06-25,Port Harcourt,Food & Drink,Protein Powder,2,30.5,15,51.85,CUST-0124,Y,Online,Card
+DT-20240484,2024-06-25,Lagos,Beauty & Health,Vitamin C Serum,1,24.14,0,24.14,CUST-0068,N,Online,Card
+DT-20240110,2024-06-27,Abuja,Clothing,Ankara Dress,1,47.3,5,44.93,CUST-0166,N,Online,Card
+DT-20240177,2024-06-27,Lagos,Beauty & Health,Vitamin C Serum,3,22.96,10,61.99,CUST-0138,N,Online,Bank Transfer
+DT-20240333,2024-06-27,Abuja,Electronics,Smart Watch,4,132.29,0,529.16,CUST-0055,N,Online,Bank Transfer
+DT-20240224,2024-06-28,Port Harcourt,Food & Drink,Coffee Beans 1kg,1,19.42,0,19.42,CUST-0153,N,Online,Card
+DT-20240411,2024-06-29,Owerri,Sports & Outdoors,Water Bottle,2,13.02,0,26.04,CUST-0141,Y,Online,Bank Transfer
+DT-20240005,2024-06-30,Lagos,Books & Stationery,Notebook A5,2,7.43,5,14.12,CUST-0069,N,In-Store,Card
+DT-20240100,2024-06-30,Benin City,Sports & Outdoors,Yoga Mat,3,28.61,5,81.54,CUST-0109,N,In-Store,Card
+DT-20240132,2024-07-01,Benin City,Clothing,Running Shoes,2,64.7,0,129.4,CUST-0013,N,Online,Card
+DT-20240029,2024-07-02,Lagos,Electronics,Bluetooth Speaker,5,34.9,20,139.6,CUST-0064,N,Online,
+DT-20240091,2024-07-02,Lagos,Home & Garden,Throw Blanket,1,31.83,10,28.65,CUST-0071,N,Online,Wallet
+DT-20240253,2024-07-02,Jos,Electronics,Power Bank,1,19.27,0,19.27,CUST-0054,N,In-Store,Card
+DT-20240351,2024-07-03,Kano,Sports & Outdoors,Yoga Mat,2,26.82,0,53.64,CUST-0117,Y,Online,Wallet
+DT-20240354,2024-07-04,Ibadan,Toys & Games,Building Blocks,1,27.19,5,25.83,CUST-0031,N,Online,Card
+DT-20240153,2024-07-06,Kaduna,Books & Stationery,Notebook A5,1,6.76,0,6.76,CUST-0051,N,Online,Bank Transfer
+DT-20240233,2024-07-07,Benin City,Clothing,Denim Jeans,1,40.47,0,40.47,CUST-0036,N,Phone,Card
+DT-20240408,2024-07-07,Kaduna,Home & Garden,Throw Blanket,3,30.32,0,90.96,CUST-0015,N,Online,Wallet
+DT-20240137,2024-07-08,Abuja,Sports & Outdoors,Hiking Backpack,6,64.8,0,388.8,CUST-0020,N,In-Store,Bank Transfer
+DT-20240291,2024-07-10,Port Harcourt,Food & Drink,Herbal Tea Pack,1,10.01,5,9.51,CUST-0153,N,Online,Cash
+DT-20240319,2024-07-10,Enugu,Electronics,Smart Watch,2,123.53,5,234.71,CUST-0012,Y,In-Store,Bank Transfer
+DT-20240050,2024-07-11,Kano,Sports & Outdoors,Yoga Mat,1,30.1,0,30.1,CUST-0051,N,In-Store,Bank Transfer
+DT-20240120,2024-07-11,Lagos,Sports & Outdoors,Water Bottle,1,13.83,0,13.83,CUST-0047,N,Phone,Card
+DT-20240290,2024-07-11,Benin City,Electronics,Power Bank,2,21.08,20,33.73,CUST-0118,N,In-Store,Bank Transfer
+DT-20240270,2024-07-12,Abuja,Sports & Outdoors,Yoga Mat,4,27.99,20,89.57,CUST-0097,N,In-Store,Bank Transfer
+DT-20240036,2024-07-13,Ibadan,Clothing,Running Shoes,3,59.53,5,169.66,CUST-0045,N,Online,Bank Transfer
+DT-20240047,2024-07-13,Abuja,Electronics,USB-C Hub,1,24.33,0,24.33,CUST-0108,N,Online,Card
+DT-20240157,2024-07-13,Lagos,Food & Drink,Herbal Tea Pack,2,9.56,5,18.16,CUST-0175,N,In-Store,Cash
+DT-20240178,2024-07-13,Kaduna,Books & Stationery,Notebook A5,6,7.33,5,41.78,CUST-0064,N,Online,Bank Transfer
+DT-20240426,2024-07-13,Port Harcourt,Food & Drink,Herbal Tea Pack,1,9.96,0,9.96,CUST-0026,Y,In-Store,Card
+DT-20240009,2024-07-16,Kano,Home & Garden,Throw Blanket,1,31.85,0,31.85,CUST-0120,N,Marketplace,Bank Transfer
+DT-20240202,2024-07-16,Lagos,Clothing,Running Shoes,1,57.8,5,54.91,CUST-0106,N,Online,Cash
+DT-20240314,2024-07-16,Lagos,Sports & Outdoors,Water Bottle,3,12.5,0,37.5,CUST-0143,Y,In-Store,Bank Transfer
+DT-20240328,2024-07-18,Abuja,Beauty & Health,Face Moisturiser,3,19.56,5,55.75,CUST-0179,N,In-Store,Bank Transfer
+DT-20240497,2024-07-18,Owerri,Sports & Outdoors,Water Bottle,3,12.68,20,30.43,CUST-0162,N,In-Store,Card
+DT-20240494,2024-07-19,Port Harcourt,Home & Garden,Cookware Set,5,92.98,10,418.41,CUST-0132,N,Phone,Cash
+DT-20240046,2024-07-20,Ibadan,Sports & Outdoors,Water Bottle,2,12.62,0,25.24,CUST-0170,N,In-Store,Card
+DT-20240023,2024-07-21,Lagos,Food & Drink,Herbal Tea Pack,5,10.17,0,50.85,CUST-0166,N,Online,Card
+DT-20240231,2024-07-21,Ibadan,Beauty & Health,Face Moisturiser,1,19.66,0,19.66,CUST-0180,N,Online,Card
+DT-20240032,2024-07-23,Abuja,Beauty & Health,Vitamin C Serum,4,22.89,15,77.83,CUST-0018,Y,Online,Bank Transfer
+DT-20240148,2024-07-23,Lagos,Electronics,Power Bank,5,19.36,0,96.8,CUST-0095,N,Online,Card
+DT-20240370,2024-07-25,Port Harcourt,Home & Garden,Cookware Set,6,89.56,0,537.36,CUST-0067,N,In-Store,Card
+DT-20240356,2024-07-26,Ibadan,Food & Drink,Protein Powder,1,31.96,0,31.96,CUST-0145,N,Marketplace,Bank Transfer
+DT-20240436,2024-07-26,Kaduna,Toys & Games,Building Blocks,2,29.75,0,59.5,CUST-0156,N,Online,Card
+DT-20240499,2024-07-26,Lagos,Books & Stationery,Fountain Pen,1,18.28,0,18.28,CUST-0168,N,In-Store,Cash
+DT-20240488,2024-07-29,Lagos,Clothing,Denim Jeans,1,39.62,0,39.62,CUST-0027,N,Online,
+DT-20240163,2024-07-30,Abuja,Sports & Outdoors,Yoga Mat,3,27.47,5,78.29,CUST-0121,N,Phone,Card
+DT-20240432,2024-07-30,Jos,Home & Garden,Cookware Set,2,86.88,15,147.7,CUST-0078,N,Marketplace,Cash
+DT-20240467,2024-07-30,Abuja,Electronics,Wireless Headphones,3,49.61,10,133.95,CUST-0063,N,Marketplace,Bank Transfer
+DT-20240108,2024-08-01,Abuja,Clothing,Running Shoes,5,64.17,5,304.81,CUST-0104,N,Online,Cash
+DT-20240246,2024-08-01,Owerri,Books & Stationery,Notebook A5,5,7.14,10,32.13,CUST-0082,N,Online,Card
+DT-20240218,2024-08-02,Ibadan,Food & Drink,Coffee Beans 1kg,2,19.3,0,38.6,CUST-0148,N,Online,Bank Transfer
+DT-20240259,2024-08-02,Lagos,Electronics,Bluetooth Speaker,5,35.51,5,168.67,CUST-0135,N,Marketplace,Card
+DT-20240020,2024-08-04,Enugu,Toys & Games,Board Game,6,34.96,0,209.76,CUST-0143,N,In-Store,Bank Transfer
+DT-20240222,2024-08-05,Lagos,Home & Garden,Table Lamp,4,25.5,10,91.8,CUST-0168,N,Online,Card
+DT-20240379,2024-08-05,Lagos,Electronics,Power Bank,1,19.67,20,15.74,CUST-0180,N,Online,Card
+DT-20240476,2024-08-05,Ibadan,Toys & Games,Board Game,2,35.31,10,63.56,CUST-0148,N,In-Store,Card
+DT-20240214,2024-08-06,Jos,Electronics,Smart Watch,4,139.2,5,528.96,CUST-0060,N,In-Store,Card
+DT-20240447,2024-08-06,Benin City,Clothing,Cotton T-Shirt,1,14.42,0,14.42,CUST-0017,N,Online,Card
+DT-20240235,2024-08-07,Abuja,Home & Garden,Throw Blanket,1,28.83,10,25.95,CUST-0036,N,In-Store,Card
+DT-20240345,2024-08-07,Lagos,Home & Garden,Cookware Set,3,93.2,0,279.6,CUST-0081,N,Online,Cash
+DT-20240360,2024-08-08,Port Harcourt,Home & Garden,Throw Blanket,2,32.01,0,64.02,CUST-0095,N,In-Store,Bank Transfer
+DT-20240241,2024-08-10,Lagos,Sports & Outdoors,Yoga Mat,2,27.72,20,44.35,CUST-0157,N,Online,Card
+DT-20240337,2024-08-10,Ibadan,Electronics,Smart Watch,2,138.11,0,276.22,CUST-0019,N,Online,Cash
+DT-20240395,2024-08-12,Enugu,Electronics,Wireless Headphones,1,53.79,20,43.03,CUST-0060,N,Online,Card
+DT-20240037,2024-08-14,Kano,Home & Garden,Throw Blanket,1,29.68,10,26.71,CUST-0055,N,Phone,Card
+DT-20240112,2024-08-14,Ibadan,Toys & Games,Building Blocks,3,29.74,0,89.22,CUST-0071,N,Online,
+DT-20240469,2024-08-15,Lagos,Sports & Outdoors,Water Bottle,2,13.31,5,25.29,CUST-0104,N,Online,Bank Transfer
+DT-20240346,2024-08-16,Abuja,Sports & Outdoors,Hiking Backpack,2,64.08,10,115.34,CUST-0079,N,Online,Bank Transfer
+DT-20240430,2024-08-17,Port Harcourt,Beauty & Health,Face Moisturiser,3,19.07,0,57.21,CUST-0053,N,In-Store,Bank Transfer
+DT-20240184,2024-08-18,Benin City,Home & Garden,Throw Blanket,1,30.0,0,30.0,CUST-0024,N,Phone,
+DT-20240386,2024-08-18,Kano,Clothing,Running Shoes,2,59.11,15,100.49,CUST-0048,N,Online,Bank Transfer
+DT-20240098,2024-08-19,Benin City,Sports & Outdoors,Yoga Mat,3,29.69,10,80.16,CUST-0106,N,In-Store,Card
+DT-20240076,2024-08-21,Lagos,Electronics,Power Bank,2,21.5,0,43.0,CUST-0037,N,In-Store,Card
+DT-20240286,2024-08-21,Lagos,Home & Garden,Cookware Set,1,85.83,15,72.96,CUST-0093,N,Online,Card
+DT-20240204,2024-08-22,Lagos,Home & Garden,Throw Blanket,6,29.9,10,161.46,CUST-0078,N,Online,Bank Transfer
+DT-20240320,2024-08-22,Kaduna,Beauty & Health,Vitamin C Serum,3,22.16,0,66.48,CUST-0049,N,Online,Card
+DT-20240052,2024-08-23,Enugu,Electronics,Bluetooth Speaker,2,33.3,5,63.27,CUST-0112,N,In-Store,Card
+DT-20240247,2024-08-26,Benin City,Clothing,Cotton T-Shirt,4,14.59,20,46.69,CUST-0080,N,In-Store,Card
+DT-20240425,2024-08-26,Ibadan,Food & Drink,Protein Powder,1,29.49,0,29.49,CUST-0003,N,In-Store,Card
+DT-20240065,2024-08-27,Enugu,Electronics,Smart Watch,3,136.88,10,369.58,CUST-0180,N,Online,Bank Transfer
+DT-20240141,2024-08-27,Kaduna,Electronics,Smart Watch,1,136.88,5,130.04,CUST-0142,N,Marketplace,Bank Transfer
+DT-20240403,2024-08-27,Abuja,Sports & Outdoors,Water Bottle,3,12.84,0,38.52,CUST-0154,Y,In-Store,Card
+DT-20240056,2024-08-30,Port Harcourt,Home & Garden,Throw Blanket,1,28.85,10,25.97,CUST-0089,N,In-Store,Bank Transfer
+DT-20240099,2024-08-30,Lagos,Clothing,Cotton T-Shirt,2,14.85,0,29.7,CUST-0022,N,Online,Bank Transfer
+DT-20240156,2024-08-30,Abuja,Clothing,Ankara Dress,3,47.4,10,127.98,CUST-0168,N,Phone,
+DT-20240289,2024-08-30,Owerri,Food & Drink,Coffee Beans 1kg,2,20.68,15,35.16,CUST-0166,N,Phone,Bank Transfer
+DT-20240155,2024-08-31,Kaduna,Food & Drink,Coffee Beans 1kg,2,20.53,5,39.01,CUST-0095,N,Online,Bank Transfer
+DT-20240277,2024-08-31,Port Harcourt,Clothing,Denim Jeans,4,40.87,10,147.13,CUST-0061,N,Online,Bank Transfer
+DT-20240090,2024-09-07,Ibadan,Sports & Outdoors,Water Bottle,4,13.05,0,52.2,CUST-0072,N,Online,Card
+DT-20240189,2024-09-07,Jos,Electronics,Power Bank,2,21.16,10,38.09,CUST-0165,N,In-Store,Card
+DT-20240299,2024-09-07,Kaduna,Clothing,Cotton T-Shirt,1,14.25,10,12.83,CUST-0023,N,Online,Cash
+DT-20240302,2024-09-07,Abuja,Sports & Outdoors,Water Bottle,2,13.23,10,23.81,CUST-0049,N,Marketplace,Wallet
+DT-20240498,2024-09-07,Kano,Toys & Games,Building Blocks,1,29.27,0,29.27,CUST-0139,N,In-Store,Bank Transfer
+DT-20240059,2024-09-08,Lagos,Electronics,Wireless Headphones,3,53.82,10,145.31,CUST-0004,N,In-Store,Cash
+DT-20240060,2024-09-08,Lagos,Home & Garden,Throw Blanket,1,32.25,15,27.41,CUST-0162,N,Online,Card
+DT-20240203,2024-09-09,Lagos,Toys & Games,Board Game,1,35.84,0,35.84,CUST-0043,N,Online,Card
+DT-20240248,2024-09-09,Jos,Electronics,Smart Watch,4,128.42,10,462.31,CUST-0051,N,In-Store,Card
+DT-20240263,2024-09-09,Port Harcourt,Clothing,Cotton T-Shirt,2,15.61,5,29.66,CUST-0045,N,Online,Wallet
+DT-20240221,2024-09-10,Port Harcourt,Electronics,Smart Watch,1,128.43,5,122.01,CUST-0029,N,Online,Bank Transfer
+DT-20240187,2024-09-11,Kano,Clothing,Ankara Dress,2,44.97,0,89.94,CUST-0121,N,Online,Bank Transfer
+DT-20240242,2024-09-11,Jos,Sports & Outdoors,Water Bottle,1,12.64,0,12.64,CUST-0134,N,Phone,
+DT-20240268,2024-09-11,Lagos,Food & Drink,Protein Powder,5,30.84,20,123.36,CUST-0020,N,Marketplace,Bank Transfer
+DT-20240293,2024-09-11,Jos,Electronics,Power Bank,2,20.04,0,40.08,CUST-0067,Y,Online,
+DT-20240127,2024-09-12,Ibadan,Clothing,Ankara Dress,1,43.45,5,41.28,CUST-0005,N,In-Store,Card
+DT-20240316,2024-09-12,Kano,Food & Drink,Coffee Beans 1kg,1,21.11,0,21.11,CUST-0031,Y,In-Store,Card
+DT-20240321,2024-09-12,Lagos,Clothing,Cotton T-Shirt,2,15.75,10,28.35,CUST-0013,N,Online,Card
+DT-20240041,2024-09-15,Kano,Food & Drink,Herbal Tea Pack,6,10.26,15,52.33,CUST-0141,N,Online,Cash
+DT-20240024,2024-09-16,Abuja,Sports & Outdoors,Yoga Mat,3,26.62,5,75.87,CUST-0090,Y,Marketplace,Bank Transfer
+DT-20240404,2024-09-16,Abuja,Electronics,Smart Watch,4,131.08,5,498.1,CUST-0048,Y,In-Store,Cash
+DT-20240365,2024-09-17,Kano,Sports & Outdoors,Water Bottle,1,12.54,10,11.29,CUST-0087,N,In-Store,Card
+DT-20240105,2024-09-19,Lagos,Electronics,Wireless Headphones,3,49.26,5,140.39,CUST-0111,N,In-Store,Card
+DT-20240154,2024-09-20,Lagos,Electronics,Wireless Headphones,2,48.38,5,91.92,CUST-0157,N,Online,Bank Transfer
+DT-20240305,2024-09-23,Abuja,Electronics,Smart Watch,3,126.96,0,380.88,CUST-0156,N,Online,Card
+DT-20240454,2024-09-23,Abuja,Beauty & Health,Vitamin C Serum,4,23.22,15,78.95,CUST-0174,N,In-Store,
+DT-20240115,2024-09-24,Ibadan,Clothing,Cotton T-Shirt,1,15.22,0,15.22,CUST-0094,N,Online,Bank Transfer
+DT-20240306,2024-09-24,Jos,Toys & Games,Board Game,4,34.53,5,131.21,CUST-0092,N,Online,Cash
+DT-20240449,2024-09-26,Port Harcourt,Sports & Outdoors,Water Bottle,6,13.92,0,83.52,CUST-0160,N,Online,Card
+DT-20240025,2024-09-27,Lagos,Clothing,Denim Jeans,2,40.27,0,80.54,CUST-0142,N,In-Store,Cash
+DT-20240228,2024-09-30,Kano,Food & Drink,Herbal Tea Pack,6,9.61,5,54.78,CUST-0110,N,In-Store,Cash
+DT-20240294,2024-09-30,Ibadan,Sports & Outdoors,Water Bottle,3,13.54,0,40.62,CUST-0122,Y,In-Store,Card
+DT-20240496,2024-09-30,Benin City,Books & Stationery,Fountain Pen,2,17.65,5,33.53,CUST-0088,N,In-Store,Card
+DT-20240057,2024-10-01,Jos,Clothing,Running Shoes,1,59.1,0,59.1,CUST-0177,N,Online,Card
+DT-20240240,2024-10-01,Abuja,Clothing,Denim Jeans,2,39.43,5,74.92,CUST-0151,N,Phone,Cash
+DT-20240363,2024-10-01,Kano,Electronics,Bluetooth Speaker,1,35.1,0,35.1,CUST-0094,N,Marketplace,Card
+DT-20240089,2024-10-02,Lagos,Clothing,Denim Jeans,1,38.23,20,30.58,CUST-0117,N,Marketplace,Card
+DT-20240335,2024-10-03,Enugu,Food & Drink,Protein Powder,2,31.15,15,52.95,CUST-0007,Y,Phone,Card
+DT-20240377,2024-10-03,Lagos,Home & Garden,Table Lamp,3,24.46,0,73.38,CUST-0089,N,In-Store,Bank Transfer
+DT-20240389,2024-10-03,Owerri,Home & Garden,Throw Blanket,3,28.6,15,72.93,CUST-0141,N,Marketplace,Bank Transfer
+DT-20240064,2024-10-05,Abuja,Electronics,Bluetooth Speaker,3,36.82,10,99.41,CUST-0039,Y,Phone,Bank Transfer
+DT-20240275,2024-10-05,Kano,Electronics,Wireless Headphones,2,49.49,5,94.03,CUST-0095,Y,Online,Card
+DT-20240352,2024-10-05,Port Harcourt,Food & Drink,Protein Powder,2,31.23,10,56.21,CUST-0097,N,Online,Card
+DT-20240001,2024-10-06,Lagos,Food & Drink,Protein Powder,1,31.38,0,31.38,CUST-0109,N,Online,Cash
+DT-20240159,2024-10-06,Abuja,Food & Drink,Herbal Tea Pack,2,10.11,20,16.18,CUST-0175,N,In-Store,Bank Transfer
+DT-20240126,2024-10-07,Owerri,Beauty & Health,Vitamin C Serum,1,23.18,0,23.18,CUST-0156,N,Online,Cash
+DT-20240392,2024-10-07,Abuja,Home & Garden,Table Lamp,4,24.71,10,88.96,CUST-0106,Y,Online,Cash
+DT-20240255,2024-10-08,Abuja,Electronics,Bluetooth Speaker,6,34.42,0,206.52,CUST-0119,N,Phone,Bank Transfer
+DT-20240343,2024-10-08,Kano,Electronics,Power Bank,1,21.16,0,21.16,CUST-0141,N,In-Store,Cash
+DT-20240412,2024-10-08,Owerri,Clothing,Running Shoes,2,63.43,0,126.86,CUST-0066,N,In-Store,Card
+DT-20240072,2024-10-09,Lagos,Toys & Games,Building Blocks,1,28.44,15,24.17,CUST-0049,Y,In-Store,Card
+DT-20240055,2024-10-11,Kaduna,Clothing,Ankara Dress,2,45.99,0,91.98,CUST-0177,N,In-Store,Bank Transfer
+DT-20240040,2024-10-12,Abuja,Electronics,Wireless Headphones,1,52.55,10,47.3,CUST-0032,N,Phone,Bank Transfer
+DT-20240116,2024-10-12,Ibadan,Clothing,Ankara Dress,1,46.71,5,44.37,CUST-0073,N,Marketplace,Card
+DT-20240451,2024-10-13,Kaduna,Sports & Outdoors,Water Bottle,4,13.77,20,44.06,CUST-0055,N,Online,Card
+DT-20240138,2024-10-14,Lagos,Clothing,Ankara Dress,1,44.2,10,39.78,CUST-0067,N,Online,Card
+DT-20240174,2024-10-15,Lagos,Food & Drink,Protein Powder,2,31.99,0,63.98,CUST-0119,N,Online,Bank Transfer
+DT-20240210,2024-10-15,Jos,Toys & Games,Board Game,1,33.74,10,30.37,CUST-0174,N,Marketplace,Bank Transfer
+DT-20240281,2024-10-15,Kaduna,Electronics,Smart Watch,3,125.99,10,340.17,CUST-0074,N,Marketplace,Wallet
+DT-20240051,2024-10-16,Kaduna,Food & Drink,Protein Powder,2,31.21,10,56.18,CUST-0089,N,In-Store,Cash
+DT-20240260,2024-10-16,Port Harcourt,Home & Garden,Throw Blanket,4,32.35,0,129.4,CUST-0100,N,Online,Bank Transfer
+DT-20240313,2024-10-16,Abuja,Electronics,Bluetooth Speaker,1,36.22,15,30.79,CUST-0172,N,In-Store,Cash
+DT-20240104,2024-10-17,Ibadan,Home & Garden,Table Lamp,2,25.1,0,50.2,CUST-0014,N,Phone,Cash
+DT-20240196,2024-10-17,Kano,Books & Stationery,Notebook A5,5,7.45,0,37.25,CUST-0012,Y,In-Store,Bank Transfer
+DT-20240244,2024-10-17,Lagos,Sports & Outdoors,Water Bottle,2,13.4,5,25.46,CUST-0041,N,Online,
+DT-20240022,2024-10-18,Abuja,Electronics,Smart Watch,1,124.65,15,105.95,CUST-0153,N,Online,Wallet
+DT-20240146,2024-10-19,Kano,Electronics,Wireless Headphones,6,48.02,10,259.31,CUST-0164,N,Marketplace,Card
+DT-20240288,2024-10-19,Kaduna,Electronics,Bluetooth Speaker,3,36.65,0,109.95,CUST-0055,N,In-Store,Card
+DT-20240419,2024-10-19,Enugu,Food & Drink,Protein Powder,1,29.36,0,29.36,CUST-0141,N,Online,Card
+DT-20240448,2024-10-19,Enugu,Sports & Outdoors,Hiking Backpack,2,64.52,0,129.04,CUST-0162,N,Online,Card
+DT-20240332,2024-10-20,Port Harcourt,Electronics,Bluetooth Speaker,4,35.96,5,136.65,CUST-0019,N,Online,Card
+DT-20240446,2024-10-20,Kaduna,Electronics,USB-C Hub,1,26.97,0,26.97,CUST-0046,Y,In-Store,Bank Transfer
+DT-20240044,2024-10-21,Kano,Electronics,USB-C Hub,4,25.01,20,80.03,CUST-0002,Y,Online,
+DT-20240206,2024-10-21,Kaduna,Home & Garden,Throw Blanket,6,32.25,0,193.5,CUST-0084,N,Phone,Bank Transfer
+DT-20240371,2024-10-21,Abuja,Home & Garden,Cookware Set,6,88.93,10,480.22,CUST-0114,Y,In-Store,Cash
+DT-20240376,2024-10-21,Benin City,Food & Drink,Herbal Tea Pack,4,10.73,0,42.92,CUST-0126,N,Phone,Wallet
+DT-20240016,2024-10-22,Kano,Electronics,Smart Watch,2,128.2,5,243.58,CUST-0122,N,Online,Wallet
+DT-20240383,2024-10-22,Port Harcourt,Home & Garden,Table Lamp,2,24.86,0,49.72,CUST-0167,N,Marketplace,Bank Transfer
+DT-20240416,2024-10-22,Kano,Sports & Outdoors,Water Bottle,1,13.72,5,13.03,CUST-0015,Y,Online,
+DT-20240084,2024-10-23,Abuja,Electronics,Smart Watch,5,134.11,5,637.02,CUST-0034,N,Online,Bank Transfer
+DT-20240470,2024-10-24,Owerri,Beauty & Health,Vitamin C Serum,3,22.82,0,68.46,CUST-0163,N,Phone,Card
+DT-20240008,2024-10-25,Kano,Home & Garden,Table Lamp,4,24.19,5,91.92,CUST-0057,Y,Online,Bank Transfer
+DT-20240080,2024-10-25,Lagos,Clothing,Denim Jeans,1,38.87,15,33.04,CUST-0119,N,In-Store,Card
+DT-20240021,2024-10-26,Kano,Electronics,Smart Watch,3,139.86,5,398.6,CUST-0136,N,Marketplace,Card
+DT-20240188,2024-10-26,Port Harcourt,Electronics,Bluetooth Speaker,3,35.12,0,105.36,CUST-0107,N,Online,Card
+DT-20240261,2024-10-26,Jos,Food & Drink,Protein Powder,4,31.98,0,127.92,CUST-0041,N,In-Store,Bank Transfer
+DT-20240339,2024-10-26,Lagos,Clothing,Cotton T-Shirt,1,15.0,0,15.0,CUST-0019,N,In-Store,Card
+DT-20240081,2024-10-27,Abuja,Food & Drink,Coffee Beans 1kg,3,21.33,0,63.99,CUST-0109,N,In-Store,Card
+DT-20240002,2024-10-28,Abuja,Electronics,Power Bank,1,19.06,5,18.11,CUST-0002,N,Online,Card
+DT-20240109,2024-10-28,Kano,Beauty & Health,Vitamin C Serum,5,24.33,0,121.65,CUST-0021,N,Online,Card
+DT-20240358,2024-10-29,Lagos,Sports & Outdoors,Water Bottle,1,13.45,10,12.11,CUST-0097,N,Online,Bank Transfer
+DT-20240205,2024-10-31,Lagos,Beauty & Health,Vitamin C Serum,2,24.24,0,48.48,CUST-0083,N,In-Store,Cash
+DT-20240459,2024-10-31,Benin City,Sports & Outdoors,Hiking Backpack,5,65.02,0,325.1,CUST-0086,N,Online,Card
+DT-20240093,2024-11-01,Lagos,Beauty & Health,Face Moisturiser,4,19.49,0,77.96,CUST-0038,Y,In-Store,Cash
+DT-20240097,2024-11-01,Port Harcourt,Food & Drink,Protein Powder,3,28.98,5,82.59,CUST-0117,N,Online,Card
+DT-20240172,2024-11-01,Benin City,Clothing,Running Shoes,4,62.9,10,226.44,CUST-0021,N,In-Store,Bank Transfer
+DT-20240367,2024-11-01,Lagos,Food & Drink,Herbal Tea Pack,6,9.99,5,56.94,CUST-0045,N,Online,Cash
+DT-20240359,2024-11-03,Lagos,Electronics,Power Bank,4,20.77,5,78.93,CUST-0137,N,Online,Wallet
+DT-20240366,2024-11-03,Kano,Sports & Outdoors,Yoga Mat,6,27.18,0,163.08,CUST-0017,N,Online,Card
+DT-20240444,2024-11-03,Lagos,Electronics,USB-C Hub,3,24.51,5,69.85,CUST-0141,N,In-Store,Card
+DT-20240417,2024-11-04,Owerri,Beauty & Health,Vitamin C Serum,5,23.09,15,98.13,CUST-0163,N,Online,Bank Transfer
+DT-20240407,2024-11-06,Enugu,Food & Drink,Coffee Beans 1kg,2,20.7,10,37.26,CUST-0004,Y,Online,Card
+DT-20240136,2024-11-07,Ibadan,Electronics,USB-C Hub,4,24.92,10,89.71,CUST-0113,N,Online,Card
+DT-20240121,2024-11-08,Abuja,Beauty & Health,Face Moisturiser,1,19.82,0,19.82,CUST-0115,N,Online,Wallet
+DT-20240168,2024-11-08,Benin City,Electronics,Smart Watch,2,123.73,0,247.46,CUST-0104,N,In-Store,Card
+DT-20240478,2024-11-08,Lagos,Electronics,Power Bank,6,21.55,10,116.37,CUST-0121,N,In-Store,Card
+DT-20240158,2024-11-09,Owerri,Sports & Outdoors,Yoga Mat,2,26.66,0,53.32,CUST-0016,N,In-Store,Bank Transfer
+DT-20240393,2024-11-09,Kaduna,Electronics,USB-C Hub,1,26.43,0,26.43,CUST-0176,N,In-Store,Bank Transfer
+DT-20240433,2024-11-09,Ibadan,Toys & Games,Building Blocks,1,27.14,0,27.14,CUST-0156,N,Online,
+DT-20240441,2024-11-09,Owerri,Electronics,USB-C Hub,1,25.8,10,23.22,CUST-0097,N,Online,Wallet
+DT-20240135,2024-11-10,Jos,Food & Drink,Coffee Beans 1kg,2,19.42,0,38.84,CUST-0071,N,Phone,Wallet
+DT-20240149,2024-11-11,Kano,Electronics,Wireless Headphones,1,49.23,0,49.23,CUST-0041,N,Marketplace,Card
+DT-20240061,2024-11-12,Abuja,Beauty & Health,Vitamin C Serum,1,22.1,5,21.0,CUST-0134,N,Marketplace,Bank Transfer
+DT-20240200,2024-11-12,Abuja,Electronics,Power Bank,2,21.44,10,38.59,CUST-0064,N,Online,Card
+DT-20240317,2024-11-12,Ibadan,Electronics,USB-C Hub,3,25.08,0,75.24,CUST-0131,N,In-Store,Bank Transfer
+DT-20240394,2024-11-12,Kano,Home & Garden,Table Lamp,5,25.08,0,125.4,CUST-0180,N,Online,Bank Transfer
+DT-20240318,2024-11-13,Ibadan,Home & Garden,Table Lamp,1,24.92,0,24.92,CUST-0169,N,In-Store,Bank Transfer
+DT-20240035,2024-11-15,Abuja,Sports & Outdoors,Water Bottle,1,13.59,0,13.59,CUST-0032,N,Online,Wallet
+DT-20240042,2024-11-16,Abuja,Beauty & Health,Vitamin C Serum,1,22.62,5,21.49,CUST-0113,N,Online,Bank Transfer
+DT-20240347,2024-11-16,Lagos,Food & Drink,Protein Powder,5,31.77,0,158.85,CUST-0020,Y,Phone,Card
+DT-20240473,2024-11-16,Abuja,Food & Drink,Coffee Beans 1kg,1,19.28,0,19.28,CUST-0098,N,Online,Bank Transfer
+DT-20240111,2024-11-17,Port Harcourt,Electronics,Smart Watch,1,126.42,10,113.78,CUST-0145,N,Online,
+DT-20240279,2024-11-17,Lagos,Books & Stationery,Notebook A5,2,6.76,20,10.82,CUST-0153,N,Marketplace,Wallet
+DT-20240256,2024-11-18,Owerri,Electronics,Wireless Headphones,6,52.89,0,317.34,CUST-0022,N,Online,Card
+DT-20240381,2024-11-18,Port Harcourt,Electronics,Smart Watch,1,131.48,0,131.48,CUST-0081,N,Online,Wallet
+DT-20240382,2024-11-18,Lagos,Food & Drink,Herbal Tea Pack,1,9.55,0,9.55,CUST-0086,N,Online,Card
+DT-20240015,2024-11-19,Lagos,Electronics,Wireless Headphones,3,49.69,0,149.07,CUST-0018,Y,Marketplace,Card
+DT-20240390,2024-11-23,Ibadan,Sports & Outdoors,Yoga Mat,2,28.74,10,51.73,CUST-0080,Y,In-Store,Bank Transfer
+DT-20240190,2024-11-24,Jos,Sports & Outdoors,Hiking Backpack,3,63.17,5,180.03,CUST-0135,N,Phone,Bank Transfer
+DT-20240475,2024-11-24,Kaduna,Food & Drink,Protein Powder,2,31.3,0,62.6,CUST-0117,Y,In-Store,Card
+DT-20240176,2024-11-26,Jos,Electronics,USB-C Hub,2,23.84,10,42.91,CUST-0096,Y,Online,Wallet
+DT-20240401,2024-11-26,Lagos,Home & Garden,Cookware Set,5,92.73,20,370.92,CUST-0138,N,Online,Card
+DT-20240088,2024-11-27,Lagos,Electronics,Smart Watch,3,131.46,20,315.5,CUST-0119,Y,Online,Bank Transfer
+DT-20240341,2024-11-27,Abuja,Sports & Outdoors,Water Bottle,3,12.84,0,38.52,CUST-0003,N,In-Store,Wallet
+DT-20240440,2024-11-28,Owerri,Electronics,Power Bank,5,21.32,15,90.61,CUST-0042,N,Online,Card
+DT-20240048,2024-11-29,Lagos,Electronics,Power Bank,6,19.13,0,114.78,CUST-0008,Y,Online,
+DT-20240164,2024-11-29,Lagos,Electronics,Power Bank,1,21.53,10,19.38,CUST-0074,N,In-Store,Bank Transfer
+DT-20240292,2024-11-29,Abuja,Electronics,Wireless Headphones,1,49.68,0,49.68,CUST-0039,N,Online,Bank Transfer
+DT-20240017,2024-11-30,Jos,Electronics,USB-C Hub,2,24.89,15,42.31,CUST-0026,N,In-Store,
+DT-20240272,2024-11-30,Lagos,Electronics,Wireless Headphones,6,49.69,15,253.42,CUST-0112,N,Online,Bank Transfer
+DT-20240145,2024-12-03,Ibadan,Food & Drink,Herbal Tea Pack,2,10.18,0,20.36,CUST-0155,N,Marketplace,Card
+DT-20240236,2024-12-03,Benin City,Electronics,Power Bank,3,20.55,10,55.49,CUST-0053,N,In-Store,Cash
+DT-20240181,2024-12-04,Port Harcourt,Food & Drink,Herbal Tea Pack,3,10.27,0,30.81,CUST-0106,N,Online,Card
+DT-20240075,2024-12-05,Kaduna,Beauty & Health,Vitamin C Serum,4,21.97,10,79.09,CUST-0167,Y,In-Store,Card
+DT-20240265,2024-12-05,Kano,Sports & Outdoors,Yoga Mat,4,29.41,15,99.99,CUST-0026,N,Online,Card
+DT-20240107,2024-12-08,Kaduna,Electronics,USB-C Hub,1,26.17,0,26.17,CUST-0019,N,In-Store,Bank Transfer
+DT-20240334,2024-12-08,Abuja,Clothing,Running Shoes,4,64.76,20,207.23,CUST-0062,Y,In-Store,
+DT-20240014,2024-12-09,Ibadan,Food & Drink,Protein Powder,4,32.11,10,115.6,CUST-0113,Y,In-Store,Card
+DT-20240182,2024-12-09,Kano,Books & Stationery,Notebook A5,2,7.21,5,13.7,CUST-0135,N,Online,Wallet
+DT-20240185,2024-12-09,Port Harcourt,Electronics,USB-C Hub,3,25.93,15,66.12,CUST-0123,N,Marketplace,Cash
+DT-20240087,2024-12-10,Abuja,Beauty & Health,Vitamin C Serum,2,22.11,0,44.22,CUST-0098,N,Marketplace,Card
+DT-20240217,2024-12-10,Enugu,Food & Drink,Herbal Tea Pack,1,10.0,0,10.0,CUST-0077,Y,In-Store,Card
+DT-20240418,2024-12-10,Enugu,Clothing,Cotton T-Shirt,3,14.86,0,44.58,CUST-0101,Y,Phone,Card
+DT-20240410,2024-12-11,Kano,Food & Drink,Protein Powder,3,30.67,10,82.81,CUST-0171,N,Online,Bank Transfer
+DT-20240487,2024-12-11,Enugu,Clothing,Ankara Dress,1,44.7,0,44.7,CUST-0173,N,Online,Card
+DT-20240226,2024-12-12,Kano,Beauty & Health,Face Moisturiser,1,19.77,0,19.77,CUST-0037,N,Online,Card
+DT-20240297,2024-12-14,Kano,Home & Garden,Cookware Set,6,92.32,0,553.92,CUST-0077,N,Marketplace,Bank Transfer
+DT-20240229,2024-12-15,Kaduna,Clothing,Ankara Dress,3,44.72,5,127.45,CUST-0012,N,Phone,Card
+DT-20240238,2024-12-15,Lagos,Electronics,Bluetooth Speaker,1,37.49,15,31.87,CUST-0121,Y,Phone,Card
+DT-20240374,2024-12-15,Owerri,Clothing,Denim Jeans,2,40.47,15,68.8,CUST-0049,N,Online,Wallet
+DT-20240405,2024-12-15,Port Harcourt,Clothing,Denim Jeans,1,39.66,20,31.73,CUST-0142,N,Online,Card
+DT-20240485,2024-12-15,Enugu,Electronics,USB-C Hub,2,25.29,20,40.46,CUST-0122,N,In-Store,Card
+DT-20240118,2024-12-16,Owerri,Clothing,Running Shoes,2,62.01,0,124.02,CUST-0024,N,Online,Wallet
+DT-20240220,2024-12-16,Port Harcourt,Books & Stationery,Fountain Pen,4,16.44,20,52.61,CUST-0114,N,Online,Bank Transfer
+DT-20240096,2024-12-17,Lagos,Food & Drink,Coffee Beans 1kg,6,20.18,0,121.08,CUST-0114,N,Online,Bank Transfer
+DT-20240452,2024-12-17,Abuja,Clothing,Cotton T-Shirt,2,14.84,0,29.68,CUST-0102,N,In-Store,
+DT-20240006,2024-12-18,Port Harcourt,Electronics,Smart Watch,1,132.52,5,125.89,CUST-0176,N,Phone,Wallet
+DT-20240198,2024-12-18,Enugu,Food & Drink,Coffee Beans 1kg,2,20.75,0,41.5,CUST-0129,N,Online,Cash
+DT-20240211,2024-12-18,Port Harcourt,Clothing,Running Shoes,1,57.82,0,57.82,CUST-0115,N,In-Store,Bank Transfer
+DT-20240230,2024-12-18,Owerri,Home & Garden,Throw Blanket,1,32.11,5,30.5,CUST-0167,N,Marketplace,Bank Transfer
+DT-20240400,2024-12-18,Ibadan,Clothing,Cotton T-Shirt,1,15.01,20,12.01,CUST-0096,N,Online,Bank Transfer
+DT-20240402,2024-12-18,Abuja,Electronics,Power Bank,4,21.04,10,75.74,CUST-0035,N,Online,Card
+DT-20240495,2024-12-18,Kaduna,Home & Garden,Table Lamp,4,26.48,10,95.33,CUST-0124,N,In-Store,Card
+DT-20240327,2024-12-19,Kaduna,Electronics,Bluetooth Speaker,1,36.65,0,36.65,CUST-0053,N,Online,Cash
+DT-20240209,2024-12-20,Kano,Clothing,Running Shoes,2,64.72,0,129.44,CUST-0010,N,Online,Wallet
+DT-20240068,2024-12-21,Port Harcourt,Books & Stationery,Fountain Pen,2,16.91,10,30.44,CUST-0170,Y,Phone,Card
+DT-20240227,2024-12-21,Owerri,Clothing,Running Shoes,4,57.58,10,207.29,CUST-0095,N,In-Store,Cash
+DT-20240266,2024-12-21,Benin City,Books & Stationery,Fountain Pen,6,17.89,5,101.97,CUST-0158,N,Online,Wallet
+DT-20240480,2024-12-21,Owerri,Home & Garden,Cookware Set,2,89.37,20,142.99,CUST-0078,N,In-Store,Card
+DT-20240039,2024-12-22,Kano,Electronics,USB-C Hub,4,25.73,5,97.77,CUST-0103,N,In-Store,Bank Transfer
+DT-20240276,2024-12-22,Ibadan,Home & Garden,Table Lamp,1,25.17,15,21.39,CUST-0022,N,Phone,Card
+DT-20240361,2024-12-22,Port Harcourt,Clothing,Running Shoes,2,63.15,5,119.98,CUST-0109,N,In-Store,Cash
+DT-20240439,2024-12-22,Port Harcourt,Toys & Games,Building Blocks,2,29.61,10,53.3,CUST-0101,N,In-Store,Cash
+DT-20240117,2024-12-23,Ibadan,Books & Stationery,Notebook A5,3,6.94,0,20.82,CUST-0034,N,Marketplace,Wallet
+DT-20240082,2024-12-24,Abuja,Clothing,Running Shoes,1,63.65,0,63.65,CUST-0169,N,Online,Card
+DT-20240463,2024-12-24,Kano,Clothing,Cotton T-Shirt,1,15.07,5,14.32,CUST-0092,N,Phone,Cash
+DT-20240267,2024-12-25,Owerri,Food & Drink,Protein Powder,4,29.97,0,119.88,CUST-0101,N,Phone,Card
+DT-20240369,2024-12-26,Lagos,Electronics,Bluetooth Speaker,2,36.79,0,73.58,CUST-0024,N,In-Store,Bank Transfer
+DT-20240477,2024-12-26,Abuja,Sports & Outdoors,Hiking Backpack,2,65.21,0,130.42,CUST-0149,N,In-Store,Bank Transfer
+DT-20240140,2024-12-29,Owerri,Books & Stationery,Fountain Pen,2,17.71,0,35.42,CUST-0164,N,Online,Card
+DT-20240456,2024-12-29,Lagos,Food & Drink,Coffee Beans 1kg,1,19.48,10,17.53,CUST-0106,N,Marketplace,Cash
+DT-20240123,2024-12-30,Benin City,Beauty & Health,Face Moisturiser,1,20.2,5,19.19,CUST-0032,N,Phone,Wallet
+DT-20240197,2024-12-30,Kaduna,Clothing,Cotton T-Shirt,5,14.59,0,72.95,CUST-0020,N,In-Store,Card
+DT-20240434,2024-12-30,Ibadan,Electronics,Wireless Headphones,3,49.83,5,142.02,CUST-0048,N,In-Store,Bank Transfer
+DT-20240442,2024-12-30,Lagos,Electronics,Bluetooth Speaker,3,35.81,0,107.43,CUST-0079,N,Phone,Card
+DT-20240139,2024-12-31,Kano,Food & Drink,Herbal Tea Pack,2,10.68,0,21.36,CUST-0023,N,Marketplace,Bank Transfer
+DT-20240397,2024-12-31,Abuja,Electronics,USB-C Hub,5,24.33,0,121.65,CUST-0114,N,Marketplace,Card
