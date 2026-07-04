@@ -13,7 +13,8 @@ env/
 .ipynb_checkpoints/
 
 
-../dataset/datatrove_sales_2024.csv
+../dataset/datatrove_sales_2024.csv #remove
+dataset/
 scripts/
 plan/
 

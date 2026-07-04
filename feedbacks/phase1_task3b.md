@@ -69,6 +69,20 @@ To actually *run* the Task 3C notebook from a clean clone, a teammate also needs
 
 ### 4. Note the dataset in the README. Since `dataset/datatrove_sales_2024.csv` is correctly git-ignored, anyone cloning the repo won't have it. A one-line note in the README ("place the dataset in `dataset/` before running") saves confusion later.
 
+### 5. Ignore the whole `dataset/` folder, not one file by name (follow-up)
+Coming back to this after Task 4: ignoring the **whole** `dataset/` folder with a single entry — rather than naming one file — is exactly the point I was trying to get across in Task 3B (*Part 3 — Understand the `.gitignore`*), but it didn't quite land the first time. Naming the exact file means every new dataset has to be added to `.gitignore` by hand — easy to forget, and not good practice.
+
+So I've gone in and shown you what I meant: I added a `dataset/` entry (which ignores the entire folder) and tagged your old file-specific line with `#remove`. Compare the two and you'll see the difference:
+
+```diff
+- ../dataset/datatrove_sales_2024.csv   #remove   ← my old file-by-name entry: delete this whole line
++ dataset/                                        ← ignores the whole folder in one go
+```
+
+(That old `../` pattern never worked anyway — `.gitignore` patterns are relative to the file's own folder and can't point to a parent directory.)
+
+**Your only job now:** delete the line I tagged `#remove`. 
+
 ---
 
 
