@@ -12,8 +12,6 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-
-../dataset/datatrove_sales_2024.csv #remove
 dataset/
 scripts/
 plan/
@@ -22,3 +20,4 @@ plan/
 .DS_Store
 Thumbs.db
 python-3.11.9-amd64.exe
+tasks/DTS_202_Dataset.csv
