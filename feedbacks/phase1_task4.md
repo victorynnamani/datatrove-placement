@@ -15,6 +15,22 @@ The one thing that separates this from a distinction-level submission is **inter
 
 ---
 
+## Resubmission review — 2026-08-21
+
+You went back and actioned both must-fixes, and it shows. **Revised grade: Pass with distinction.**
+
+- **Must-fix #1 (interpret the data) — resolved.** Almost every explanation cell now states the number, says what it means for DataTrove, and points to an action. Standouts: mean ₦95.17 vs median ₦62.03 with the ~53% overstatement (your maths checks out), the unit-price/quantity distributions read as upsell and bundle opportunities, and the probability cells framing Lagos as both the strongest market and a concentration risk. This is exactly the "so what?" habit I was pushing for — it's clicked.
+- **Must-fix #2 (probability two ways) — resolved.** Section 6 now prints the explicit count-based fraction (numerator/denominator) *and* a genuinely different pandas method (`value_counts(normalize=True)`), for both P(Lagos) and the conditional P(Electronics | Lagos). Requirement fully met.
+
+Two small polish points for next time (not blockers, and they won't hold the grade):
+
+1. **Correlation is partly definitional.** `total_amount` is essentially `quantity × unit_price`, so part of the 0.53 is built in by construction, not purely behavioural. One line acknowledging that would sharpen the "bundles drive revenue" recommendation.
+2. **Correlation vs causation is still generic.** Ground it in your own data — e.g. quantity correlating with total_amount doesn't prove that pushing quantity *causes* revenue, since the two are linked by construction.
+
+Also: before you call any notebook "done", re-run it top-to-bottom in a fresh kernel so the saved outputs match a clean run. Well done on the turnaround, Victory.
+
+---
+
 > **Follow-up on Task 3B:** I've added a correction to your Task 3B feedback about the `.gitignore` — ignore the whole `dataset/` folder rather than naming one file. Please action it there. See `feedbacks/phase1_task3b.md`, *Things to fix → item 5 (Ignore the whole `dataset/` folder)*.
 
 ## What you did well
