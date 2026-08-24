@@ -15,7 +15,7 @@ Everything is in **pounds (£)**.
 
 ## The data
 
-- Input: `dataset/northstar_goods.csv` (raw).
+- Input: `dataset/northstar_goods_v2.csv` (raw).
 - Output: `dataset/northstar_clean.csv` (you produce it here; later tasks depend on it).
 
 > **Deliberate trap you'll meet in Task 3.** The `region` values in the order export are inconsistently cased (`london`, `LONDON`, `London`); the regions reference table uses proper case. A JOIN or merge will silently drop rows until you normalise the casing here. Cleaning is not busywork — it is what makes the join work.
