@@ -68,3 +68,6 @@ Submission requires **both** the `.R` script **and** a well-documented PDF repor
 3. Deliver the PDF report.
 
 Genuinely good analysis, Victory — the statistical instincts are there. Tighten these three and it's a distinction.
+
+— Promise Ekeh  
+Head of Analytics, DataTrove

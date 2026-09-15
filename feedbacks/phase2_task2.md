@@ -13,6 +13,23 @@ Good work, Victory. The notebook runs end-to-end successfully and shows a though
 
 ---
 
+## Resubmission review — 2026-09-15
+
+The invalid-date must-fix is resolved, cleanly. **Revised grade: Pass with merit (distinction-leaning).**
+
+- **Invalid date now handled properly.** Step 3 parses with `errors="coerce"` and then *drops* the unparseable row (`NS-00234`), recorded as a real decision in the log.
+- **The check is now a genuine validation** — `checks["Zero invalid dates"] = df["order_date"].isna().sum() == 0`, backed by an `assert` — not the hardcoded `True` placeholder.
+- **Everything downstream is consistent:** 999 rows, and the cleaning log, row-count difference, summary, and saved `northstar_clean.csv` all reflect the drop.
+
+Two things I want to credit specifically:
+
+- You re-ran against the **current 11-column export** (the new order IDs `NS-00234`/`NS-00953`/`NS-00840` confirm it) — exactly the staleness lesson from Task 1, applied without being told twice.
+- The **outlier reconciliation** (recovering `quantity = 8` and `unit_price = £188.99` from `total_amount` rather than dropping or capping) is genuinely sharp analyst work. It's correct precisely because the corrupted field doesn't feed the already-correct `total_amount`.
+
+Signed off. Carry the "recovered value is inferred, not observed" wording habit into future logs.
+
+---
+
 ## What you did well
 
 - **Successful end-to-end execution.** All code cells run in order without errors, and the final cleaned file is produced.

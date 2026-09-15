@@ -29,7 +29,7 @@ There's one real problem, and it's a process one rather than a skill one: **the 
 
 ### 1. Re-run against the current export (must-fix — the important one)
 
-Your outputs were generated against an export that **did not include `returned`**. The current `dataset/northstar_goods_v2.csv` has **11 columns including `returned`**.
+Your outputs were generated against an export that **did not include `returned`**. The current `dataset/northstar_goods.csv` has **11 columns including `returned`** (I checked the header). None of the cells are executed in the current kernel, which is how this drift went unnoticed. When you re-run top-to-bottom:
 
 - Shape becomes **(1002, 11)**, not (1002, 10) — update the shape/type section and the conclusion.
 - `returned` will appear in your column list and in `select_dtypes("object")`, so your categorical section needs a line acknowledging it. Leave the *analysis* of it for Phase 4 per the brief — just note its presence.
