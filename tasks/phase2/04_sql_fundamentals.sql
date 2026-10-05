@@ -2,10 +2,22 @@
 -- Phase 2, Task 4: SQL Fundamentals
 -- NorthStar Goods
 --
--- Schema was created by hand with CREATE TABLE below. The two source CSVs
+-- -- Schema was created by hand with CREATE TABLE below. The two source CSVs
 -- were then loaded into these tables using DBeaver's Import Data wizard
 -- (right-click each table -> Import Data -> CSV -> target existing table),
 -- not by letting the import auto-generate a schema.
+--
+-- To reproduce this without DBeaver, or to run this file standalone
+-- start to finish, use the sqlite3 CLI instead:
+--
+--   sqlite3 northstar.db
+--   sqlite> .mode csv
+--   sqlite> .import --skip 1 ../../dataset/northstar_regions.csv regions
+--   sqlite> .import --skip 1 ../../dataset/northstar_clean.csv orders
+--
+-- (--skip 1 skips the CSV header row, since the columns are already
+-- named by the CREATE TABLE statements below. Adjust the CSV paths if
+-- your folder layout differs.)
 -- =========================================================================
 
 DROP TABLE IF EXISTS orders;
@@ -19,17 +31,17 @@ CREATE TABLE regions (
 );
 
 CREATE TABLE orders (
-    order_id            TEXT PRIMARY KEY,
-    order_date          DATE NOT NULL,
-    customer_id         TEXT NOT NULL,
-    region               TEXT NOT NULL,
-    product_category     TEXT NOT NULL,
-    quantity             INTEGER NOT NULL,
-    unit_price            REAL NOT NULL,
-    discount_pct           INTEGER NOT NULL,
-    payment_method           TEXT NOT NULL,
-    total_amount              REAL NOT NULL,
-    returned                   TEXT NOT NULL,
+    order_id          TEXT PRIMARY KEY,
+    order_date        DATE NOT NULL,
+    customer_id       TEXT NOT NULL,
+    region            TEXT NOT NULL,
+    product_category  TEXT NOT NULL,
+    quantity          INTEGER NOT NULL,
+    unit_price        REAL NOT NULL,
+    discount_pct      INTEGER NOT NULL,
+    payment_method    TEXT NOT NULL,
+    total_amount      REAL NOT NULL,
+    returned          TEXT NOT NULL,
     FOREIGN KEY (region) REFERENCES regions(region)
 );
 
@@ -160,9 +172,10 @@ FROM (
     FROM orders
     GROUP BY region
 ) AS region_totals
-ORDER BY total_revenue DESC
+ORDER BY total_revenue DESC, region ASC
 LIMIT 1;
--- Read: North, £89,670.44.
+-- Read: North, £89,670.44. The secondary "region ASC" tiebreaker makes
+-- this deterministic if two regions ever tie exactly on revenue.
 
 -- 5b. Orders above the overall average total_amount
 SELECT order_id, region, total_amount
