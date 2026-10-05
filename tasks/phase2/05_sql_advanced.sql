@@ -129,7 +129,24 @@ SELECT region, order_id, order_date, total_amount,
 FROM orders
 ORDER BY region, order_date;
 
--- Divides each order's value by the full-year total for its region
+-- Representative view: Wales only, first 10 orders of the year, kept
+-- short for readability. The full query above (all regions, all orders)
+-- remains available for verification.
+SELECT region, order_id, order_date, total_amount,
+       ROUND(SUM(total_amount) OVER (
+           PARTITION BY region ORDER BY order_date
+           ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+       ), 2) AS running_total
+FROM orders
+WHERE region = 'Wales'
+ORDER BY order_date
+LIMIT 10;
+-- Read: Wales's revenue accumulates from £84.29 on its first order of
+-- the year to £259.97 by its second, climbing steadily toward the
+-- region's full annual total.
+
+
+-- 3b. Divides each order's value by the full-year total for its region
 -- (the window has no ORDER BY, so it always sums the whole partition,
 -- not a running subset), showing what share of that region's annual
 -- revenue any single order represents.
@@ -150,16 +167,23 @@ ORDER BY region, pct_of_region_total DESC;
 -- Aggregates revenue by region and month, then LAG() pulls in each
 -- month's own value from the row directly before it in the same
 -- region's sequence, which is what makes the month-over-month %
--- calculation possible in one pass.
+-- calculation possible in one pass. LEAD() does the mirror opposite,
+-- reaching forward to the following month's revenue. One row (order_id
+-- NS-00234, region Scotland) has a missing order_date and is excluded
+-- below, since grouping it by month would place it in an invalid NULL
+-- calendar period.
 WITH monthly_region_revenue AS (
     SELECT region, strftime('%Y-%m', order_date) AS order_month,
            SUM(total_amount) AS revenue
     FROM orders
+    WHERE order_date IS NOT NULL
     GROUP BY region, order_month
 )
 SELECT region, order_month, ROUND(revenue, 2) AS revenue,
        ROUND(LAG(revenue) OVER (PARTITION BY region ORDER BY order_month), 2)
            AS prev_month_revenue,
+       ROUND(LEAD(revenue) OVER (PARTITION BY region ORDER BY order_month), 2)
+           AS next_month_revenue,
        ROUND(
            100.0 * (revenue - LAG(revenue) OVER (PARTITION BY region ORDER BY order_month))
            / LAG(revenue) OVER (PARTITION BY region ORDER BY order_month),
@@ -167,15 +191,21 @@ SELECT region, order_month, ROUND(revenue, 2) AS revenue,
 FROM monthly_region_revenue
 ORDER BY region, order_month;
 
--- Read: January shows NULL for prev_month_revenue in every region,
--- since there's no prior month in the data to compare to.
+-- Read: January shows NULL for prev_month_revenue and December shows
+-- NULL for next_month_revenue in every region, since there's no month
+-- before January or after December to compare to. next_month_revenue is
+-- useful for a forward check, e.g. confirming a bad month recovered the
+-- following month before reacting to it as a trend.
 
--- Reuses the same growth calculation as above, then sorts every
--- region-month by growth ascending and keeps only the single worst row.
+
+-- 4b. Reuses the same growth calculation as above, excluding the one row
+-- with a missing order_date, then sorts every region-month by growth
+-- ascending and keeps only the single worst row.
 WITH monthly_region_revenue AS (
     SELECT region, strftime('%Y-%m', order_date) AS order_month,
            SUM(total_amount) AS revenue
     FROM orders
+    WHERE order_date IS NOT NULL
     GROUP BY region, order_month
 ),
 with_growth AS (
@@ -190,13 +220,16 @@ SELECT region, order_month, ROUND(revenue, 2) AS revenue,
        ROUND(mom_growth_pct, 2) AS mom_growth_pct
 FROM with_growth
 WHERE mom_growth_pct IS NOT NULL
-ORDER BY mom_growth_pct ASC
+ORDER BY mom_growth_pct ASC, region ASC, order_month ASC
 LIMIT 1;
 
--- Read: the worst region-month is North, July 2024, at negative
--- 83.83% (£13,661.03 down to £2,209.10). Individual regions swing
--- harder than the whole business since they have far fewer orders
--- per month to average out.
+-- Read: the worst region-month is still North, July 2024, at negative
+-- 83.83% (£13,661.03 down to £2,209.10), unchanged by excluding the one
+-- missing-date row, since that row belongs to Scotland, not North.
+-- Individual regions swing harder than the whole business since they
+-- have far fewer orders per month to average out. The added "region
+-- ASC, order_month ASC" tiebreak makes this deterministic if two
+-- region-months ever land on the exact same growth percentage.
 
 
 -- =====================================================================
@@ -204,8 +237,12 @@ LIMIT 1;
 -- =====================================================================
 
 -- Step 1 sums spend and counts orders per customer per region. Step 2
--- ranks customers inside their own region by that spend. The final
--- SELECT then just filters down to rank 3 or better.
+-- ranks customers inside their own region by that spend, using
+-- ROW_NUMBER() rather than RANK() so exactly 3 rows are returned per
+-- region even if two customers ever tie on total_spend, with customer_id
+-- as the secondary sort to break such a tie deterministically. (Checked:
+-- no ties currently exist at the rank-3 boundary in this dataset, but
+-- RANK() would not guarantee exactly 3 rows per region if one appeared.)
 WITH customer_region_stats AS (
     SELECT region, customer_id,
            SUM(total_amount) AS total_spend,
@@ -215,7 +252,9 @@ WITH customer_region_stats AS (
 ),
 ranked_customers AS (
     SELECT region, customer_id, total_spend, order_count,
-           RANK() OVER (PARTITION BY region ORDER BY total_spend DESC) AS spend_rank
+           ROW_NUMBER() OVER (
+               PARTITION BY region ORDER BY total_spend DESC, customer_id ASC
+           ) AS spend_rank
     FROM customer_region_stats
 )
 SELECT region, spend_rank, customer_id,
@@ -224,13 +263,11 @@ FROM ranked_customers
 WHERE spend_rank <= 3
 ORDER BY region, spend_rank;
 
--- Read: 24 rows in total, 8 regions times 3 customers each. North's
--- top customer, CUST-0160, leads with £3,854.04 across 5 orders.
+-- Read: 24 rows in total, 8 regions times 3 customers each, identical
+-- to the previous RANK()-based result since no ties exist in the
+-- current data. North's top customer, CUST-0160, leads with £3,854.04
+-- across 5 orders.
 
-
--- =====================================================================
--- 6. Reflection (≤ 150 words)
--- =====================================================================
 
 -- =====================================================================
 -- 6. Reflection (≤ 150 words)
